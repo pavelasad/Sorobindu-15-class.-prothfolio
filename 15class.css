@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+/*Header section************************************/
+
+header{
+    height: 80px;
+    width: 100%;
+    background-color:#22c3a3;
+}
+.header-logo{
+    float: left;
+    width: 30%;
+    width: 210px;
+}
+.header-logo img{
+    width: 100px;
+    height: auto;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
+.main-manu{
+    float: right;
+    width: 70%;
+}
+
+.main-manu ul{
+    text-align: right;
+}
+.main-manu ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.main-manu ul a{
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    padding: 0 5px;
+    line-height: 70px;
+}
+.main-manu ul a:hover{
+    color: black;
+    transition: 0.3s;
+    font-family: sans-serif;
+}
+
+/*Banner section**********************************/
+.banner-section{
+    text-align: center;
+    background-image: url(.//image/header-bg01.jpg);
+    height: 420px;
+    background-size: cover;
+}
+.banner-section h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 45px;
+    padding-top: 120px;
+}
+.banner-section h3{
+    color: white;
+}
+.bannerS-button{
+    border: 2px solid white;
+    background: none;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+.bannerS-button:hover{
+    border: 2px solid orange;
+    color: black;
+    transition: 0.3s;
+}
+.bannerS-button a{
+    text-decoration: none;
+}
+.bannerS-button h3:hover{
+    color: black;
+    transition: 0.3s;
+}
+/*servise bolg section*************************/
+.service-blog{
+    text-align: center;
+    padding: 120px 0px;
+}
+.service-blog h2{
+    font-size: 35px;
+}
+.service-blog p{
+    padding-top: 10px;
+}
+/*servise List section*************************/
+.service-list{
+    padding: 0px 100px;
+    padding-bottom: 170px;
+    border-bottom: 2px solid #22c3a3 ;
+
+}
+.s-list {
+    display: inline-block;
+    width: 210px;
+    height: auto;
+    text-align: center;
+    margin-left: 30px;
+}
+.s-list h2{
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+.s-list p{
+    margin-top: 10px;
+}
+.service-icon{
+    font-size: 40px;
+    color: #22c3a3;
+}
+.service-icon:hover{
+    color: orange;
+    transition: 0.2s;
+}
+
+/*About heading section*************************/
+.about-heading{
+    text-align: center;
+    margin-top: 70px;
+    
+}
+.about-heading img{
+    float: left;
+    width: 550px;
+    height: auto;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.about-ditells{
+    float: left;
+    width: 500px;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 40px;
+    color: gray;
+    text-align: left;
+}
+.about-ditells h2{
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 200;
+    color: gray;
+}
+.extra{
+    height: 120px;
+    width: 100%;
+    background-color: #ffffff;
+    margin-top: 400px;
+}
+
+/*Contact section*************************/
+.contacticon-s{
+    margin-right: 100px;
+}
+.contact-section{
+    text-align: center;
+    height: 250px;
+    background-color: #e9e5e5;
+    padding-top: 70px;
+    font-family: sans-serif;
+}
+.contact-section h2{
+    padding: 10px 0px;
+}
+
+.c-section{
+    display: inline-block;
+    margin-top: 50px;
+    padding-left: 50px;
+    font-size: 18px
+}
+.c-icon{
+    font-size: 30px;
+    color: #22c3a3;
+    padding-bottom: 10px;
+}
+.c-icon:hover{
+    color: orange;
+}
+/*Social icon section*************************/
+.social-i-section{
+    height: 50px;
+    width: 100%;
+    background-color:#22c3a3 ;
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+}
+.social-i-d{
+    padding-left: 10px;
+    color: rgb(238, 238, 238);
+}
+.social-i-d:hover{
+    color: black;
+}
+
+/*footer section*************************/
+footer{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    line-height: 50px;
+    color: grey;
+    font-family: sans-serif;
+}
